@@ -9,8 +9,8 @@
 
 # Define server logic required to calculate the square of a number
 shinyAppServer <- function(input, output, session) {
-  result <- reactive(input$num_input^2)
+  result <- reactive(square(input$num_input))
   output$text_out <- renderText(
-    paste("The square of the number n is: n² =", result())
+    paste("The square of the number n is: n^2 =", result())
   )
 }
