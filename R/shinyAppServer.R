@@ -11,6 +11,6 @@
 shinyAppServer <- function(input, output, session) {
   result <- reactive(square(input$num_input))
   output$text_out <- renderText(
-    paste("The square of the number n is: n^2 =", result())
+    paste("The square of the number n is: n2 =", result())
   )
 }
