@@ -2,7 +2,7 @@
 % Please edit documentation in R/app.R
 \name{app}
 \alias{app}
-\title{launches the RPackageTestDemo app}
+\title{the RPackageTestDemo app}
 \usage{
 app()
 }
@@ -10,5 +10,5 @@ app()
 shiny application object
 }
 \description{
-launches the RPackageTestDemo app
+the RPackageTestDemo app
 }

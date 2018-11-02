@@ -6,13 +6,6 @@
 \usage{
 square(num)
 }
-\arguments{
-\item{input}{provided by shiny}
-
-\item{output}{provided by shiny}
-
-\item{session}{provided by shiny}
-}
 \value{
 shiny application object
 }

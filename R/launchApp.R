@@ -7,8 +7,6 @@
 #' @example \dontrun {launchApp()}
 #'
 #' @import shiny
-#'
-
 
 # wrapper for shiny::shinyApp()
 launchApp <- function() {
