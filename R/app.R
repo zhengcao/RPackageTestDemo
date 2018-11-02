@@ -14,7 +14,7 @@ app <- function() {
   )
 
   server <- function(input, output, session) {
-    result <- reactive(input$num_input ^ 2)
+    result <- reactive(RPackageTestDemo::square(input$num_input))
     output$text_out <- renderText(
       paste("The square of the number n is: n2 =", result())
     )

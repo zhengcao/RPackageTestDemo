@@ -13,6 +13,9 @@ square(num)
 
 \item{session}{provided by shiny}
 }
+\value{
+shiny application object
+}
 \description{
 square server function
 }

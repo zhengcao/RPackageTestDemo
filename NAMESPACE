@@ -2,4 +2,5 @@
 
 export(app)
 export(launchApp)
+export(square)
 import(shiny)
